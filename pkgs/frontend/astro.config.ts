@@ -47,6 +47,7 @@ export default c.defineConfig({
 	experimental: {
 		contentIntellisense: true,
 		queuedRendering: { enabled: true },
+		rustCompiler: true,
 	},
 	fonts: [
 		{
