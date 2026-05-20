@@ -18,8 +18,8 @@ importers:
         specifier: ^0.2.2
         version: 0.2.2(@standard-schema/spec@1.1.0)(hono@4.12.19)
       drizzle-orm:
-        specifier: 1.0.0-rc.3
-        version: 1.0.0-rc.3(@electric-sql/pglite@0.4.5)(postgres@3.4.9)(zod@4.4.3)
+        specifier: 1.0.0-rc.4-5d5b77c
+        version: 1.0.0-rc.4-5d5b77c(@electric-sql/pglite@0.4.5)(postgres@3.4.9)(zod@4.4.3)
       hono:
         specifier: ^4.12.19
         version: 4.12.19
@@ -1409,8 +1409,8 @@ packages:
     resolution: {integrity: sha512-eDvXzRhke7OwvmN7AciGOU1E2y17MKNhghGciyw1RbmmkuD/2KDXLn3rFRZcDBmfj6CQSEnyvbU+7Fqrn2JQyA==}
     hasBin: true
 
-  drizzle-orm@1.0.0-rc.3:
-    resolution: {integrity: sha512-akZOa5UxapFbdBG8IDkfBRpSZJpMHaOJtGgp7oi1oHaiU8S3KN92waHo2l5aRuv1D9tMGYpv3BQFOsiGcNjLTQ==}
+  drizzle-orm@1.0.0-rc.4-5d5b77c:
+    resolution: {integrity: sha512-Oq9W4B11PracWY9cuCLTFT+JA5kXqR6rBmWcM8oh0xwLgCviVl9wh6ZuWX7Zpv1Jir/8W+M37syvjSYtj1f5iA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -3715,7 +3715,7 @@ snapshots:
       get-tsconfig: 4.14.0
       jiti: 2.7.0
 
-  drizzle-orm@1.0.0-rc.3(@electric-sql/pglite@0.4.5)(postgres@3.4.9)(zod@4.4.3):
+  drizzle-orm@1.0.0-rc.4-5d5b77c(@electric-sql/pglite@0.4.5)(postgres@3.4.9)(zod@4.4.3):
     optionalDependencies:
       '@electric-sql/pglite': 0.4.5
       postgres: 3.4.9
